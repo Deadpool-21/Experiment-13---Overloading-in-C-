@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+#include <string>
+
+void calc(int a,int b){
+    int sum=a+b;
+    cout<< sum<<endl;
+}
+
+void calc(int a,int b,int c)
+{
+    int diffrence=a-b-c;
+    cout<< diffrence;
+}
+
+int main()
+{
+    
+     calc(15,28);
+     calc(2,12,8);
+    
+}
+
+Output :- 
+
+43
+-18
