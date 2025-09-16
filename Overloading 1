@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+class Add{
+public:
+    Add(int a, int b){
+        cout << "a + b = "<<a+b<<endl;
+    }
+    Add(float a, float b){
+        cout << "float a + b = "<<a+b<<endl;
+    }
+    Add(int a, int b,int c){
+        cout << "a + b + c = "<<a+b+c<<endl;
+    }
+};
+int main() {
+    Add a(15,29);
+    Add b(13.51f,26.89f);
+    Add c(25,21,72);
+    return 0;
+}
+
+Output:- 
+
+a + b = 44
+float a + b = 40.4
+a + b + c = 118
